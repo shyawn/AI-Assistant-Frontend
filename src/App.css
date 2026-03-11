@@ -1,0 +1,25 @@
+/* Thin scrollbar for modal conversation panel */
+.conversation::-webkit-scrollbar {
+  width: 4px;
+}
+.conversation::-webkit-scrollbar-track {
+  background: transparent;
+}
+.conversation::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+/* Decorative blob in hero */
+.hero-bg-blob {
+  position: absolute;
+  top: -120px;
+  right: -120px;
+  width: 480px;
+  height: 480px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #bae6fd 0%, transparent 70%);
+  opacity: 0.5;
+  pointer-events: none;
+  z-index: 0;
+}
